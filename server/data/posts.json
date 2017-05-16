@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "name": "Annie Droid",
+      "message": "Hello, World!",
+      "profileImage": "https://storage.googleapis.com/network-security-conf-codelab.appspot.com/images/1.png"
+    },
+    {
+      "name": "Amy Droidette",
+      "message": "I like FrameLayouts! They are just the best layouts!",
+      "profileImage": "https://storage.googleapis.com/network-security-conf-codelab.appspot.com/images/2.png"
+    },
+    {
+      "name": "A.D.",
+      "message": "My app does not work on Donut. Help?",
+      "profileImage": "https://storage.googleapis.com/network-security-conf-codelab.appspot.com/images/3.png"
+    },
+    {
+      "name": "Ann D.",
+      "message": "I love my new Android phone!",
+      "profileImage": "https://storage.googleapis.com/network-security-conf-codelab.appspot.com/images/4.png"
+    },
+    {
+      "name": "Al Dupont",
+      "message": "@Amy Droidette - Wait until you try ConstraintLayouts!",
+      "profileImage": "https://storage.googleapis.com/network-security-conf-codelab.appspot.com/images/5.png"
+    },
+    {
+      "name": "Andy",
+      "message": "I like Nougat. So tasty!",
+      "profileImage": "https://storage.googleapis.com/network-security-conf-codelab.appspot.com/images/6.png"
+    }
+    ,
+    {
+      "name": "Abby Droid",
+      "message": "I love these new Android features!",
+      "profileImage": "https://storage.googleapis.com/network-security-conf-codelab.appspot.com/images/7.png"
+    }
+
+  ]
+}
