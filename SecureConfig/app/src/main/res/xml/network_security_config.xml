@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
     <base-config cleartextTrafficPermitted="false" />
-    <domain-config cleartextTrafficPermitted="true">
+
+    <domain-config>
         <domain includeSubdomains="true">localhost</domain>
+        <trust-anchors>
+            <!-- Trust a debug certificate in addition to the system certificates -->
+            <certificates src="system" />
+            <certificates src="@raw/debug_certificate" />
+        </trust-anchors>
     </domain-config>
+
 </network-security-config>
