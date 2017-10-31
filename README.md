@@ -1,5 +1,6 @@
 # Android Network Security Configuration Codelab
 
+
 This repository contains the code for the Android codelab "Android Network
 Security Configuration".
 
@@ -33,3 +34,4 @@ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 License for the specific language governing permissions and limitations under
 the License.
 ```
+#Happy coding
