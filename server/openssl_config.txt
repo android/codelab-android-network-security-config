@@ -1,0 +1,16 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+req_extensions = v3_ca
+distinguished_name = dn
+
+[dn]
+C=US
+O=Debug certificate
+CN=localhost
+
+[v3_ca]
+basicConstraints = CA:FALSE
+keyUsage = nonRepudiation, digitalSignature, keyEncipherment
+subjectAltName = DNS:localhost,IP:127.0.0.1
