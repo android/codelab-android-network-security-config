@@ -17,23 +17,24 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion rootProject.ext.buildToolsVersion
+    compileSdkVersion 30
+
     defaultConfig {
         applicationId "com.example.networksecurity"
         minSdkVersion 24
-        targetSdkVersion 27
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-    buildTypes {
 
+    buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             buildConfigField "String", "POSTS_URL", postsUrl
         }
+
         debug {
             buildConfigField "String", "POSTS_URL", postsUrl
         }
@@ -45,14 +46,14 @@ dependencies {
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
-    implementation "com.android.support:design:${rootProject.ext.supportLibVersion}"
-    implementation "com.android.support:support-v4:${rootProject.ext.supportLibVersion}"
-    testImplementation 'junit:junit:4.12'
+
+    implementation "androidx.appcompat:appcompat:1.2.0"
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+
+    implementation "com.google.android.material:material:1.2.1"
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.android.volley:volley:1.1.0'
+
+    testImplementation 'junit:junit:4.13'
     testImplementation 'org.mockito:mockito-core:2.8.9'
-
-    implementation 'com.android.volley:volley:1.0.0'
-    implementation 'com.google.code.gson:gson:2.8.1'
-
-    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
 }
