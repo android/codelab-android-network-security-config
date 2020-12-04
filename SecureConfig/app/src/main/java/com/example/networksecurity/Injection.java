@@ -17,7 +17,8 @@
 package com.example.networksecurity;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 import com.example.networksecurity.data.DataSource;
 import com.example.networksecurity.data.remote.RemoteDataSource;
