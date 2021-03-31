@@ -10,7 +10,7 @@ communications.
 ### Getting started
 Follow the instructions on this page to get started.
 Clone this repository and follow the steps in the codelab:
-https://codelabs.developers.google.com/codelabs/android-network-security-config
+https://developer.android.com/codelabs/android-network-security-config
 
 ### License
 
