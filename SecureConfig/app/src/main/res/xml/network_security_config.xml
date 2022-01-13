@@ -4,11 +4,13 @@
 
     <domain-config>
         <domain includeSubdomains="true">localhost</domain>
+        <debug-overrides>
         <trust-anchors>
             <!-- Trust a debug certificate in addition to the system certificates -->
             <certificates src="system" />
-            <certificates src="@raw/debug_certificate" />
+            <certificates src="user" />
         </trust-anchors>
+        </debug-overrides>
     </domain-config>
 
 </network-security-config>
