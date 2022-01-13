@@ -17,12 +17,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
 
     defaultConfig {
         applicationId "com.example.networksecurity"
         minSdkVersion 24
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -47,13 +47,13 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
-    implementation "androidx.appcompat:appcompat:1.2.0"
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation "androidx.appcompat:appcompat:1.4.0"
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
 
-    implementation "com.google.android.material:material:1.2.1"
-    implementation 'com.google.code.gson:gson:2.8.5'
-    implementation 'com.android.volley:volley:1.1.0'
+    implementation "com.google.android.material:material:1.4.0"
+    implementation 'com.google.code.gson:gson:2.8.8'
+    implementation 'com.android.volley:volley:1.2.1'
 
-    testImplementation 'junit:junit:4.13'
-    testImplementation 'org.mockito:mockito-core:2.8.9'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.mockito:mockito-core:2.23.0'
 }
